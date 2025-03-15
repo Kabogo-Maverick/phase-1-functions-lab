@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 13,
-    "start": "2025-03-15T20:05:09.441Z",
-    "end": "2025-03-15T20:05:09.982Z",
-    "duration": 541
+    "start": "2025-03-15T20:05:44.038Z",
+    "end": "2025-03-15T20:05:44.551Z",
+    "duration": 513
   },
   "tests": [
     {
@@ -43,7 +43,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -73,7 +73,7 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:34:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -103,7 +103,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -124,7 +124,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -164,7 +164,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -194,7 +194,7 @@
     {
       "title": "returns the distance travelled in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 3,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceTravelledInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:34:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -224,7 +224,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -245,7 +245,7 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
